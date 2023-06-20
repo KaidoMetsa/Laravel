@@ -5,13 +5,13 @@
 
 <body>
 
+<?php foreach ($posts as $post) : ?>
+
     <article>
-
-    <?= $post; ?>
-
+        <?= $post; ?>
     </article>
 
-    <a href ="/">Go Back</a>
+<?php endforeach; ?>
 
 </body>
 
